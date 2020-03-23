@@ -9,3 +9,12 @@
 
 <!-- FontAwesome -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+
+<!-- MyScript -->
+<script type="text/javascript">
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip({
+	  	delay: { "show": 500, "hide": 0 },
+	  });
+	});
+</script>

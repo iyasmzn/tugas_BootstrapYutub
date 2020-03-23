@@ -1,7 +1,7 @@
-<div class="napbar row">
+<div class="napbar row" style="z-index: 100;">
 	<div class="col-sm-3">
 		<a href="" class="mr-4"><i class="fas fa-bars" style="font-size: 1.2em;"></i></a>
-		<a href="" class="yt-logo font-anton"><img src="../assets/icon/yt-icon.png"/>YouTube<span class="font-roboto">ID</span></a>
+		<a href="" class="yt-logo font-anton" data-toggle="tooltip" data-placement="bottom" title="Beranda YouTube"><img src="../assets/icon/yt-icon.png"/>YouTube<span class="font-roboto">ID</span></a>
 	</div>
 	<div class="col-sm-6 search-group">
 		<form class="">

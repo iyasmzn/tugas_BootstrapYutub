@@ -1,0 +1,8 @@
+#content {
+	background-color: #f9f9f9;
+	position: absolute;
+	right: 0;top: 60px;
+}
+#content h5 {
+	font-weight: bold;
+}
