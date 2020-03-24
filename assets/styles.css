@@ -26,13 +26,19 @@ a:hover {
 }
 .yt-logo {
 	color: #212121;
+	font-size: 1.1em;
 }
 .yt-logo span {
 	color: #606060;
 }
 .yt-logo img {
-	width: 35px;
+	width: 30px;
 	transform: translateY(-1px);
+}
+.yt-logo .fa-youtube {
+	color: #ff0000;
+	font-size: 1.4em;
+	transform: translateY(2px);
 }
 .napbar {
 	position: fixed;
@@ -95,4 +101,13 @@ a:hover {
 }
 #sidebar .list-group .active i {
 	color: #ff0000;
+}
+#sidebar .sidebar-subscription-img {
+	display: block;
+	width: 25px;height: 25px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 30px;
+	background-image: url('https://yt3.ggpht.com/a/AATXAJy_jzcQjlSrcgVqr8qPeuNsNSRCSGrYGZBCAg=s88-c-k-c0xffffffff-no-rj-mo');
+
 }

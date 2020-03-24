@@ -6,6 +6,28 @@
 #content h5 {
 	font-weight: bold;
 }
+#content [class*='iklan'] {
+	width: 100%;
+	background-color: #e0e0e0;
+}
+#content .iklan-video {
+	height: 250px;
+}
+#content .iklan-thumb {
+	height: 130px;
+}
+#content .iklan-caption {
+	height: auto;
+	margin-top: 20px;
+}
+#content .iklan-img-account {
+	display: block;
+	width: 80px;height: 80px;
+	background-color: white;
+	border-radius: 100px;
+	background-position: center;
+	background-size: cover;
+}
 #content .video-group {
 	border-bottom: 3px solid #e0e0e0;
 }
@@ -31,7 +53,10 @@
 #content .video-group-thumbnail:hover, #content .video-group-caption:hover {
 	cursor: pointer;
 }
-
+#content [class*='pideo-tumbnel'] {
+	background-position: center;
+	background-size: cover;
+}
 #content .video-group-caption {
 	width: 100%;
 }
@@ -48,10 +73,9 @@
 
 
 /* img source */
-#content [class*='pideo-tumbnel'] {
-	background-position: center;
-	background-size: cover;
+#content .img-account-src {
+	background-image: url('https://yt3.ggpht.com/a/AATXAJxreh_QURB3icyWGWc8D6ZdJB4-dq9Bg9HP5Q=s100-c-k-c0x00ffffff-no-rj');
 }
 #content .pideo-tumbnel-1 {
-	background-image: url('https://i.ytimg.com/an_webp/qO_aCndlG4s/mqdefault_6s_480x270.webp?du=3000&sqp=CJm84vMF&rs=AOn4CLAn25oLIAMN46jmAxSSRJ9_8FSHTA');
+	background-image: url('https://i.ytimg.com/an_webp/2mSr6GgQV2Y/mqdefault_6s.webp?du=3000&sqp=CKDc5fMF&rs=AOn4CLBvdNhiGFVs5I31duytISLeWxUvAg');
 }
