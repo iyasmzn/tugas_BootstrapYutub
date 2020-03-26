@@ -47,6 +47,11 @@ a:hover {
 	padding: 1% 2%;
 	background-color: rgba(255, 255, 255, 0.99);
 }
+.navbar-country {
+	font-size: 0.6em;
+	display: inline-block;
+	transform: translateY(-10px);
+}
 .search-group {
 	/*align-self: center;*/
 }
@@ -108,6 +113,125 @@ a:hover {
 	background-position: center;
 	background-size: cover;
 	border-radius: 30px;
-	background-image: url('https://yt3.ggpht.com/a/AATXAJy_jzcQjlSrcgVqr8qPeuNsNSRCSGrYGZBCAg=s88-c-k-c0xffffffff-no-rj-mo');
+	background-image: url('https://yt3.ggpht.com/a-/AOh14GiYUR3QpvFjPXIX3UizZIGRGUh2HSDyCigLUA=s68-c-k-c0x00ffffff-no-rj-mo');
+}
+.content-account-img {
+	width: 50px;height: 50px;
+	border-radius: 50px;
+	background-size: cover;
+	background-position: center;
+}
+.video-content-title {
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.4;
+}
+.video-content-caption {
+	line-height: 1;
+	color: #888;
+	font-size: 0.95em;
+}
+#content {
+	background-color: #f9f9f9;
+	position: absolute;
+	right: 0;top: 60px;
+}
+#content h5 {
+	font-weight: bold;
+}
+#content [class*='iklan'] {
+	width: 100%;
+}
+#content .iklan-video {
+	height: 250px;
+	background-position: center;
+	background-size: cover;
+}
+#content .iklan-thumb {
+	height: 130px;
+	background-position: top;
+	background-size: cover;
+}
+#content .iklan-caption {
+	height: auto;
+	margin-top: 20px;
+}
+#content .iklan-img-account {
+	display: block;
+	width: 80px;height: 80px;
+	background-color: white;
+	border-radius: 100px;
+	background-position: center;
+	background-size: cover;
+}
+#content .video-group {
+	border-bottom: 3px solid #e0e0e0;
+}
+#content .video-group-thumbnail {
+	width: 100%;height: 140px;
+	display: block;
+	background-color: #e0e0e0; 
+	padding: 5px;
+}
+#content .video-group-thumbnail-tag {
+	width: 100%;height: 100%;
+	position: relative; 
+}
+#content .video-group-thumbnail-times {
+	position: absolute; 
+	bottom: 0;right: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	font-size: 0.8em;
+	padding: 0px 5px;
+	border-radius: 3px;
+}
+#content .video-group-thumbnail:hover, #content .video-group-caption:hover {
+	cursor: pointer;
+}
+#content [class*='pideo-tumbnel'] {
+	background-position: center;
+	background-size: cover;
+}
+#content .video-group-caption {
+	width: 100%;
+}
 
+
+
+
+
+
+
+
+
+
+
+/* img source */
+#content .img-account-src {
+	background-image: url('https://yt3.ggpht.com/a/AATXAJxreh_QURB3icyWGWc8D6ZdJB4-dq9Bg9HP5Q=s100-c-k-c0x00ffffff-no-rj');
+}
+#content .pideo-tumbnel-1 {
+	background-image: url('https://i.ytimg.com/vi/zJLc0HBm6vc/maxresdefault.jpg');
+}
+#content .covid-19 .pideo-tumbnel-1 {
+	background-image: url('https://i.ytimg.com/vi/zAMqhhtsyxA/maxresdefault.jpg')!important;
+}
+#content .blank-title .pideo-tumbnel-1 {
+	background-image: url('https://i.ytimg.com/vi/xmiZKPUTmlU/maxresdefault.jpg')!important;
+}
+.iklan-video {
+	background-image: url('https://media.suara.com/pictures/970x544/2019/03/04/98928-samsung-galaxy-a50-samsung-india.jpg');
+}
+.iklan-thumb {
+	background-image: url('https://asset.kompas.com/crop/3x3:730x730/340x340/data/photo/2019/07/15/5d2c3fbf23990.jpg');
+}
+.content-account-img {
+	background-image: url('https://yt3.ggpht.com/a-/AOh14GiYUR3QpvFjPXIX3UizZIGRGUh2HSDyCigLUA=s68-c-k-c0x00ffffff-no-rj-mo');
+}
+.covid-19 .content-account-img {
+	background-image: url('https://yt3.ggpht.com/a-/AOh14Gjg9Ga1KP71TbOx78GX-rqDxWnWosGJQotBiA=s68-c-k-c0x00ffffff-no-rj-mo');
+}
+.blank-title .content-account-img {
+	background-image: url('https://yt3.ggpht.com/a-/AOh14GjTexfrtr7AV4jefxFqVjbE6u9OY_0hjGjT2Q=s68-c-k-c0x00ffffff-no-rj-mo');
 }

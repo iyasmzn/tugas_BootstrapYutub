@@ -1,7 +1,7 @@
 <div class="napbar row" style="z-index: 100;">
 	<div class="col-sm-3">
 		<a href="#" class="mr-4"><i class="material-icons" style="font-size: 1.4em;transform: translateY(4px);">dehaze</i></a>
-		<a href="#" class="yt-logo font-anton" data-toggle="tooltip" data-placement="bottom" title="Beranda YouTube"><i class="fab fa-youtube" style="color: "></i>YouTube<span class="font-roboto">ID</span></a>
+		<a href="#" class="yt-logo font-anton" data-toggle="tooltip" data-placement="bottom" title="Beranda YouTube"><i class="fab fa-youtube" style="color: "></i>YouTube<span class="font-roboto navbar-country">ID</span></a>
 	</div>
 	<div class="col-sm-6 search-group">
 		<form class="">

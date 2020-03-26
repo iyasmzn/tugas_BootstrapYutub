@@ -10,7 +10,7 @@
 			</a>
 			<a href="#" class="list-group-item-action p-1">
 				<div class="row container">
-					<div class="col-sm-3 text-center"><i class="material-icons">trending_up</i></div>
+					<div class="col-sm-3 text-center"><i class="material-icons">whatshot</i></div>
 					<div class="col-sm-9"><div>Trending</div></div>
 				</div>
 			</a>
@@ -63,7 +63,7 @@ for ($i = 0; $i < 7; $i++) {
 							<div class="sidebar-subscription-img"></div>
 						</div>
 						<div class="col-sm-9">
-							<div style="text-transform: capitalize;">zach king <?=$no++?> </div>
+							<div style="text-transform: capitalize;">Raditya Dika <?=$no++?> </div>
 						</div>
 					</div>
 				</a>
